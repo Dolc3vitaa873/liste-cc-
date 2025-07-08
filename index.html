@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BARA NO STOP</title>
+  <style>
+    body { margin:0; background:#181818; color:#e0e0e0; font-family:Arial,sans-serif; }
+    .header { position:sticky; top:0; background:#1f1f1f; padding:10px; z-index:100; text-align:center; }
+    .header input { width:90%; max-width:400px; padding:10px; border-radius:20px; border:none; }
+    .cards { display:flex; flex-wrap:wrap; justify-content:center; gap:15px; padding:10px; }
+    .card { background:#242424; width:220px; padding:15px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.5); position:relative; }
+    .card p { margin:5px 0; font-size:14px; }
+    .card .level { font-weight:bold; color:#f7b500; }
+    .card .buy { margin-top:10px; }
+    .card .buy button { background:#00c853; width:100%; padding:10px; border:none; border-radius:5px; color:white; font-weight:bold; cursor:pointer; }
+    .loading { text-align:center; padding:20px; color:#888; }
+    @media (max-width:600px) { .cards { flex-direction:column; align-items:center; } }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <input id="search" type="text" placeholder="🔍 Rechercher banque, niveau, BIN..." />
+  </div>
+
+  <div class="cards" id="cards"></div>
+  <div class="loading" id="loading">🌀 Chargement de plus de cartes...</div>
+
+  <script>
+    const DATA_URL = "https://raw.githubusercontent.com/Dolc3vitaa873/liste-cc-/main/data.json";
+    const STRIPE = {
+      "CLASSIC": "https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00",
+      "GOLD":    "https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01",
+      "BUSINESS":"https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02",
+      "INFINITE":"https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03"
+    };
+
+    let allCards = [], filtered = [], displayed = 0, batch = 10;
+
+    async function loadData() {
+      try {
+        const res = await fetch(DATA_URL);
+        allCards = await res.json();
+        filtered = allCards;
+        displayed = 0;
+        document.getElementById('cards').innerHTML = '';
+        loadMore();
+      } catch(e) {
+        console.error(e);
+        document.getElementById('loading').textContent = '🔥 Erreur de chargement';
+      }
+    }
+
+    function toCardHTML(c) {
+      return `<div class="card" data-number="${c.card_number}">
+                <p>**** **** **** ${c.card_number.slice(-4)}</p>
+                <p>${c.bank}</p>
+                <p>BIN: ${c.bin}</p>
+                <p class="level">${c.level}</p>
+                <p>${c.brand}</p>
+                <div class="buy">
+                  <button onclick="buyCard(this, '${c.card_number}', '${c.level}')">Acheter</button>
+                </div>
+              </div>`;
+    }
+
+    function loadMore() {
+      const container = document.getElementById('cards');
+      const end = Math.min(displayed + batch, filtered.length);
+      for(let i = displayed; i < end; i++) {
+        container.insertAdjacentHTML('beforeend', toCardHTML(filtered[i]));
+      }
+      displayed = end;
+      if(displayed >= filtered.length) {
+        document.getElementById('loading').textContent = '🌟 Toutes les cartes chargées';
+      }
+    }
+
+    function buyCard(btn, number, level) {
+      btn.closest('.card').remove();
+      window.location.href = STRIPE[level];
+    }
+
+    window.addEventListener('scroll', () => {
+      const l = document.getElementById('loading');
+      if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 100 && displayed < filtered.length) {
+        l.textContent = '🌀 Chargement de plus de cartes...';
+        setTimeout(() => {
+          loadMore();
+        }, 500);
+      }
+    });
+
+    document.getElementById('search').addEventListener('input', e => {
+      const q = e.target.value.toLowerCase();
+      filtered = allCards.filter(c =>
+        c.bank.toLowerCase().includes(q) ||
+        c.level.toLowerCase().includes(q) ||
+        c.bin.includes(q)
+      );
+      displayed = 0;
+      document.getElementById('cards').innerHTML = '';
+      loadMore();
+    });
+
+    // Refresh data toutes les 10 minutes
+    loadData();
+    setInterval(loadData, 600000);
+  </script>
+
+</body>
+</html>
