@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BARA NO STOP</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0f0f0f;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .search {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .search input {
+      width: 90%;
+      max-width: 500px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+    .card p {
+      margin: 6px 0;
+      font-size: 14px;
+    }
+    .card .level {
+      font-weight: bold;
+      color: #f0b90b;
+    }
+    .card .buy {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .card .buy a {
+      background-color: #00c853;
+      padding: 10px 20px;
+      border-radius: 6px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .pagination {
+      margin: 30px auto;
+      text-align: center;
+    }
+    .pagination button {
+      background: #1e1e1e;
+      border: 1px solid #444;
+      color: white;
+      padding: 6px 12px;
+      margin: 0 4px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Recherche banque, niveau, BIN...">
+    </div>
+    <div class="cards" id="cardContainer"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <script>
+    const DATA_URL = "https://raw.githubusercontent.com/Dolc3vitaa873/liste-cc-/main/data.json";
+    const cardsPerPage = 10;
+    let currentPage = 1;
+    let allCards = [];
+
+    const prices = {
+      "CLASSIC": { price: 50, link: "https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" },
+      "GOLD":    { price: 70, link: "https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" },
+      "BUSINESS":{ price: 100, link: "https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" },
+      "INFINITE":{ price: 120, link: "https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" }
+    };
+
+    async function loadCards() {
+      const res = await fetch(DATA_URL);
+      const data = await res.json();
+      allCards = data;
+      renderCards();
+    }
+
+    function renderCards() {
+      const container = document.getElementById('cardContainer');
+      const pagination = document.getElementById('pagination');
+      const search = document.getElementById('searchInput').value.toLowerCase();
+
+      let filtered = allCards.filter(c => 
+        c.bank.toLowerCase().includes(search) ||
+        c.level.toLowerCase().includes(search) ||
+        c.bin.toString().includes(search)
+      );
+
+      const totalPages = Math.ceil(filtered.length / cardsPerPage);
+      const start = (currentPage - 1) * cardsPerPage;
+      const visibleCards = filtered.slice(start, start + cardsPerPage);
+
+      container.innerHTML = visibleCards.map(c => `
+        <div class="card">
+          <p>💳 ${c.card_number.slice(-4)}</p>
+          <p>🏦 ${c.bank}</p>
+          <p>🏷️ BIN : ${c.bin}</p>
+          <p class="level">${c.level}</p>
+          <p>💠 ${c.brand}</p>
+          <p>📍 Base : ${c.base}</p>
+          <div class="buy">
+            <a href="${prices[c.level]?.link}" target="_blank">Acheter ${prices[c.level]?.price}€</a>
+          </div>
+        </div>
+      `).join("");
+
+      pagination.innerHTML = "";
+      for (let i = 1; i <= totalPages; i++) {
+        pagination.innerHTML += `<button onclick="changePage(${i})">${i}</button>`;
+      }
+    }
+
+    function changePage(page) {
+      currentPage = page;
+      renderCards();
+    }
+
+    document.getElementById("searchInput").addEventListener("input", () => {
+      currentPage = 1;
+      renderCards();
+    });
+
+    loadCards();
+  </script>
+</body>
+</html>
