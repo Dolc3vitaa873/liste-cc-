@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BARA NO STOP</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    }
+    .btn {
+      display: inline-block;
+      background-color: #00cc66;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background-color: #00994d;
+    }
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="card-container"></div>
+
+  <script>
+    const container = document.getElementById('card-container');
+
+    const prix = {
+      "CLASSIC": { price: 50, link: "https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" },
+      "GOLD": { price: 70, link: "https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" },
+      "BUSINESS": { price: 100, link: "https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" },
+      "INFINITE": { price: 120, link: "https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" }
+    };
+
+    const banks = [
+      { name: "Crédit Agricole", bin: "453983" },
+      { name: "Société Générale", bin: "497010" },
+      { name: "BNP Paribas", bin: "403222" },
+      { name: "La Banque Postale", bin: "421765" },
+      { name: "Caisse d'Épargne", bin: "441712" },
+      { name: "LCL", bin: "402455" },
+      { name: "Crédit Mutuel", bin: "528291" }
+    ];
+
+    const levels = [
+      ...Array(40).fill("CLASSIC"),
+      ...Array(20).fill("GOLD"),
+      ...Array(7).fill("BUSINESS"),
+      ...Array(3).fill("INFINITE")
+    ];
+
+    function getRandomDate() {
+      const now = new Date();
+      return now.toLocaleString('fr-FR');
+    }
+
+    function generateCard() {
+      const bank = banks[Math.floor(Math.random() * banks.length)];
+      const level = levels[Math.floor(Math.random() * levels.length)];
+      const type = bank.bin.startsWith("4") ? "VISA" : "MASTERCARD";
+      const number = bank.bin + String(Math.floor(100000000000 + Math.random() * 899999999999));
+      const end = number.slice(-4);
+      const exp = String(Math.floor(Math.random() * 12 + 1)).padStart(2, '0') + "/" + (26 + Math.floor(Math.random() * 5));
+      const date = getRandomDate();
+      return {
+        type,
+        level,
+        number,
+        end,
+        exp,
+        bank: bank.name,
+        bin: bank.bin,
+        date
+      };
+    }
+
+    function createCardElement(card) {
+      const info = prix[card.level];
+      const div = document.createElement("div");
+      div.className = "card";
+      div.innerHTML = `
+        <h3>${card.type} •••• ${card.end}</h3>
+        <p><strong>Banque :</strong> ${card.bank}</p>
+        <p><strong>Niveau :</strong> ${card.level}</p>
+        <p><strong>Expiration :</strong> ${card.exp}</p>
+        <p><strong>BIN :</strong> ${card.bin}</p>
+        <p><strong>Date :</strong> ${card.date}</p>
+        <a class="btn" href="${info.link}" target="_blank">Acheter — ${info.price}€</a>
+      `;
+      return div;
+    }
+
+    const cards = [];
+
+    function renderInitialCards() {
+      for (let i = 0; i < 70; i++) {
+        const card = generateCard();
+        cards.push(card);
+        const el = createCardElement(card);
+        container.appendChild(el);
+      }
+    }
+
+    function addNewCard() {
+      const newCard = generateCard();
+      cards.unshift(newCard);
+      const el = createCardElement(newCard);
+      container.insertBefore(el, container.firstChild);
+
+      // Supprime la dernière si plus de 70
+      if (cards.length > 70) {
+        cards.pop();
+        container.removeChild(container.lastChild);
+      }
+
+      // Relance avec un délai aléatoire entre 1 et 60 min
+      const delay = Math.floor(Math.random() * 60 + 1) * 60000;
+      setTimeout(addNewCard, delay);
+    }
+
+    renderInitialCards();
+    setTimeout(addNewCard, Math.floor(Math.random() * 60 + 1) * 60000); // première carte après 1-60 min
+  </script>
+</body>
+</html>
