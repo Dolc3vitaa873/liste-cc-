@@ -1,0 +1,108 @@
+# Correction du template HTML pour générer un fichier index.html sans erreur
+
+html_template = f"""
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartes bancaires</title>
+    <style>
+        body {{
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #10141C;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }}
+        table {{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #151B27;
+        }}
+        th, td {{
+            padding: 10px;
+            border-bottom: 1px solid #2c2c2c;
+            text-align: center;
+        }}
+        th {{
+            background-color: #1F2735;
+        }}
+        .acheter-btn {{
+            background-color: #4CAF50;
+            color: white;
+            padding: 6px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }}
+        .acheter-btn:hover {{
+            background-color: #45a049;
+        }}
+        .container {{
+            width: 95%;
+            margin: auto;
+            margin-top: 30px;
+        }}
+    </style>
+    <script>
+        const cards = {cards_json};
+
+        function renderCards() {{
+            const tbody = document.getElementById("cards-body");
+            tbody.innerHTML = "";
+            cards.forEach(card => {{
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td>${{card.bin}}</td>
+                    <td>${{card.bank}} ${{card.country}}</td>
+                    <td>**** ${{card.last4}}</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                    <td>${{card.dob}}</td>
+                    <td>${{card.zip}}</td>
+                    <td>${{card.base}}</td>
+                    <td>${{card.price}}</td>
+                    <td><button class='acheter-btn'>Acheter</button></td>
+                `;
+                tbody.appendChild(tr);
+            }});
+        }}
+
+        window.onload = () => {{
+            renderCards();
+            setInterval(() => location.reload(), 60000); // Auto-refresh toutes les 60 sec
+        }};
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>💳 Liste des cartes (70 générées automatiquement)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>BIN</th>
+                    <th>BANQUE</th>
+                    <th>TITULAIRE</th>
+                    <th>📧</th>
+                    <th>📞</th>
+                    <th>DOB</th>
+                    <th>ZIP</th>
+                    <th>BASE</th>
+                    <th>PRIX</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cards-body"></tbody>
+        </table>
+    </div>
+</body>
+</html>
+"""
+
+# Enregistrer dans index.html
+output_path = "/mnt/data/index.html"
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html_template)
+
+output_path
