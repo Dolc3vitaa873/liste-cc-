@@ -1,0 +1,987 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BARA NO STOP</title>
+  <meta http-equiv="refresh" content="600" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f1f2f7;
+    }
+    table {
+      width: 95%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    th {
+      background-color: #2c2f48;
+      color: white;
+      padding: 12px;
+    }
+    td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    a.buy-btn {
+      background-color: #27ae60;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+    a.buy-btn:hover {
+      background-color: #219150;
+      transform: scale(1.05);
+    }
+    small { color: #777; font-size: 12px; }
+    @media (max-width: 600px) {
+      table { width: 100%; }
+      th, td { font-size: 14px; padding: 8px; }
+      .buy-btn { font-size: 14px; padding: 6px 12px; }
+    }
+  </style>
+</head>
+<body>
+  <table id="cc-table">
+    <thead>
+      <tr>
+        <th>BIN</th>
+        <th>Banque</th>
+        <th>Titulaire</th>
+        <th>📞</th>
+        <th>📧</th>
+        <th>DOB</th>
+        <th>ZIP</th>
+        <th>Base</th>
+        <th>Prix</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Sasha R.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1993</td>
+      <td>06000</td>
+      <td>#HTOP585<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Elsa F.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1988</td>
+      <td>69002</td>
+      <td>#HTOP184<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Maya D.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1985</td>
+      <td>31000</td>
+      <td>#HTOP657<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Eva M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1972</td>
+      <td>67000</td>
+      <td>#HTOP796<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Fatima P.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1979</td>
+      <td>75001</td>
+      <td>#HTOP973<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>513672</td>
+      <td>Crédit Mutuel 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Arthur B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1987</td>
+      <td>33000</td>
+      <td>#HTOP405<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>541121</td>
+      <td>Caisse d'Épargne 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Arthur M.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1990</td>
+      <td>31000</td>
+      <td>#HTOP346<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Hana P.</td>
+      <td></td>
+      <td></td>
+      <td>1973</td>
+      <td>75001</td>
+      <td>#HTOP584<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Zoé M.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1999</td>
+      <td>13006</td>
+      <td>#HTOP624<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>513672</td>
+      <td>Crédit Mutuel 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Ismael B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1989</td>
+      <td>31000</td>
+      <td>#HTOP237<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Yasmine P.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>2000</td>
+      <td>33000</td>
+      <td>#HTOP784<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Ivan P.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1987</td>
+      <td>59000</td>
+      <td>#HTOP191<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Ismael P.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1991</td>
+      <td>69002</td>
+      <td>#HTOP517<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Fatima L.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1972</td>
+      <td>67000</td>
+      <td>#HTOP576<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Zoé R.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1982</td>
+      <td>59000</td>
+      <td>#HTOP951<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Arthur M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1997</td>
+      <td>06000</td>
+      <td>#HTOP558<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Mateo B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1971</td>
+      <td>75001</td>
+      <td>#HTOP905<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Sarah B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1982</td>
+      <td>59000</td>
+      <td>#HTOP616<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>513672</td>
+      <td>Crédit Mutuel 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Camille B.</td>
+      <td></td>
+      <td></td>
+      <td>1991</td>
+      <td>31000</td>
+      <td>#HTOP534<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Maya G.</td>
+      <td></td>
+      <td></td>
+      <td>1983</td>
+      <td>59000</td>
+      <td>#HTOP620<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>GOLD - MASTERCARD</small></td>
+      <td>Sarah M.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1993</td>
+      <td>13006</td>
+      <td>#HTOP430<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Lina B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1980</td>
+      <td>59000</td>
+      <td>#HTOP548<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>541121</td>
+      <td>Caisse d'Épargne 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Ava B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1985</td>
+      <td>13006</td>
+      <td>#HTOP213<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>513672</td>
+      <td>Crédit Mutuel 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Leo B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1970</td>
+      <td>13006</td>
+      <td>#HTOP629<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Fatima P.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1989</td>
+      <td>13006</td>
+      <td>#HTOP995<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Sophia D.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1973</td>
+      <td>06000</td>
+      <td>#HTOP827<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Chloé F.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1999</td>
+      <td>75001</td>
+      <td>#HTOP360<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Chloé C.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1994</td>
+      <td>13006</td>
+      <td>#HTOP147<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Ravi R.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1986</td>
+      <td>59000</td>
+      <td>#HTOP569<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>GOLD - VISA</small></td>
+      <td>Mei H.</td>
+      <td></td>
+      <td></td>
+      <td>1973</td>
+      <td>06000</td>
+      <td>#HTOP997<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>541121</td>
+      <td>Caisse d'Épargne 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Ayoub G.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1976</td>
+      <td>31000</td>
+      <td>#HTOP976<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>513672</td>
+      <td>Crédit Mutuel 🇫🇷<br><small>GOLD - MASTERCARD</small></td>
+      <td>Aya B.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1972</td>
+      <td>67000</td>
+      <td>#HTOP434<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Léa P.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1990</td>
+      <td>75001</td>
+      <td>#HTOP939<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>GOLD - MASTERCARD</small></td>
+      <td>Mateo B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1977</td>
+      <td>33000</td>
+      <td>#HTOP892<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Ismael L.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1995</td>
+      <td>31000</td>
+      <td>#HTOP690<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Maya M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1988</td>
+      <td>67000</td>
+      <td>#HTOP696<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Lucas B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1996</td>
+      <td>67000</td>
+      <td>#HTOP200<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>541121</td>
+      <td>Caisse d'Épargne 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Mia B.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1977</td>
+      <td>13006</td>
+      <td>#HTOP653<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Noah G.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1994</td>
+      <td>31000</td>
+      <td>#HTOP708<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Anya L.</td>
+      <td></td>
+      <td></td>
+      <td>1986</td>
+      <td>31000</td>
+      <td>#HTOP658<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Léa D.</td>
+      <td></td>
+      <td></td>
+      <td>1985</td>
+      <td>69002</td>
+      <td>#HTOP381<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Mei M.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1986</td>
+      <td>75001</td>
+      <td>#HTOP455<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Mateo B.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1988</td>
+      <td>06000</td>
+      <td>#HTOP160<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Emma H.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1983</td>
+      <td>13006</td>
+      <td>#HTOP654<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Anya M.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1991</td>
+      <td>13006</td>
+      <td>#HTOP227<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>541121</td>
+      <td>Caisse d'Épargne 🇫🇷<br><small>GOLD - VISA</small></td>
+      <td>Diego M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1983</td>
+      <td>33000</td>
+      <td>#HTOP959<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>GOLD - MASTERCARD</small></td>
+      <td>Sarah R.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1970</td>
+      <td>69002</td>
+      <td>#HTOP138<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Sarah B.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1983</td>
+      <td>59000</td>
+      <td>#HTOP545<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Giulia L.</td>
+      <td></td>
+      <td></td>
+      <td>1973</td>
+      <td>59000</td>
+      <td>#HTOP810<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Adem P.</td>
+      <td></td>
+      <td></td>
+      <td>1990</td>
+      <td>06000</td>
+      <td>#HTOP733<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Adem D.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1980</td>
+      <td>75001</td>
+      <td>#HTOP827<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Nina D.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1999</td>
+      <td>33000</td>
+      <td>#HTOP608<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Ravi M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1997</td>
+      <td>59000</td>
+      <td>#HTOP721<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Elie C.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>2000</td>
+      <td>13006</td>
+      <td>#HTOP686<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Noémie M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1970</td>
+      <td>69002</td>
+      <td>#HTOP676<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>GOLD - VISA</small></td>
+      <td>Milan B.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1989</td>
+      <td>13006</td>
+      <td>#HTOP983<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Arthur H.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1979</td>
+      <td>59000</td>
+      <td>#HTOP728<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>INFINITE - VISA</small></td>
+      <td>Leo B.</td>
+      <td></td>
+      <td></td>
+      <td>1988</td>
+      <td>13006</td>
+      <td>#HTOP379<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Jin M.</td>
+      <td>✔️</td>
+      <td></td>
+      <td>1991</td>
+      <td>13006</td>
+      <td>#HTOP879<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Ava M.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1997</td>
+      <td>69002</td>
+      <td>#HTOP103<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>CLASSIC - MASTERCARD</small></td>
+      <td>Maya M.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1970</td>
+      <td>59000</td>
+      <td>#HTOP772<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Lina G.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1996</td>
+      <td>33000</td>
+      <td>#HTOP256<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>BUSINESS - MASTERCARD</small></td>
+      <td>Eva G.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1971</td>
+      <td>13006</td>
+      <td>#HTOP260<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497194</td>
+      <td>La Banque Postale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Karim D.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1986</td>
+      <td>75001</td>
+      <td>#HTOP945<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Adem G.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1976</td>
+      <td>59000</td>
+      <td>#HTOP775<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>541121</td>
+      <td>Caisse d'Épargne 🇫🇷<br><small>BUSINESS - VISA</small></td>
+      <td>Ava M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1973</td>
+      <td>13006</td>
+      <td>#HTOP313<br><small>09/07/2025</small></td>
+      <td>100€</td>
+      <td><a href="https://buy.stripe.com/9B6fZh7KZezf9zQ4R8c3m02" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>497010</td>
+      <td>BNP Paribas 🇫🇷<br><small>GOLD - VISA</small></td>
+      <td>Liam H.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1971</td>
+      <td>31000</td>
+      <td>#HTOP821<br><small>09/07/2025</small></td>
+      <td>70€</td>
+      <td><a href="https://buy.stripe.com/3cI5kD2qF3UBaDU3N4c3m01" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>530436</td>
+      <td>Société Générale 🇫🇷<br><small>CLASSIC - VISA</small></td>
+      <td>Jin M.</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>1987</td>
+      <td>59000</td>
+      <td>#HTOP713<br><small>09/07/2025</small></td>
+      <td>50€</td>
+      <td><a href="https://buy.stripe.com/5kQcN54yNfDj8vMbfwc3m00" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>409923</td>
+      <td>Crédit Agricole 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Fatima P.</td>
+      <td></td>
+      <td>✔️</td>
+      <td>1988</td>
+      <td>69002</td>
+      <td>#HTOP745<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    <tr>
+      <td>522310</td>
+      <td>LCL 🇫🇷<br><small>INFINITE - MASTERCARD</small></td>
+      <td>Nina R.</td>
+      <td></td>
+      <td></td>
+      <td>1972</td>
+      <td>59000</td>
+      <td>#HTOP987<br><small>09/07/2025</small></td>
+      <td>120€</td>
+      <td><a href="https://buy.stripe.com/7sYcN52qF1MtcM2cjAc3m03" class="buy-btn" target="_blank">Acheter</a></td>
+    </tr>
+    
+    </tbody>
+  </table>
+</body>
+</html>
