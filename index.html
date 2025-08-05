@@ -5,24 +5,26 @@
 <title>Cartes disponibles</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+/* --- Style Cashgen --- */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
+  background: #f4f6f8;
   color: #333;
+  margin: 0;
 }
 header {
   background: #fff;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
   border-bottom: 1px solid #ddd;
 }
 #counter {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin: 10px 0;
+  font-weight: bold;
 }
 table {
   width: 100%;
@@ -30,11 +32,11 @@ table {
   background: #fff;
 }
 thead {
-  background: #f9f9f9;
+  background: #fafafa;
 }
 thead th {
-  padding: 10px;
-  font-size: 0.85em;
+  padding: 12px 10px;
+  font-size: 0.9em;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
@@ -42,24 +44,25 @@ tbody tr {
   border-bottom: 1px solid #eee;
 }
 tbody tr:hover {
-  background: #f1f1f1;
+  background: #f9f9f9;
 }
 tbody td {
-  padding: 8px 10px;
-  font-size: 0.85em;
+  padding: 10px;
+  font-size: 0.9em;
   vertical-align: middle;
 }
 button.demander {
-  background-color: #32cd32;
+  background-color: #28a745;
   color: white;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border: none;
   cursor: pointer;
   font-weight: bold;
   border-radius: 4px;
+  font-size: 0.85em;
 }
 button.demander:hover {
-  background-color: #28a428;
+  background-color: #218838;
 }
 .flag {
   font-size: 1.1em;
@@ -94,7 +97,6 @@ const telegramUser = "dolc3vitaa1";
 fetch('./cards.txt')
   .then(res => res.text())
   .then(text => {
-    // Découpe chaque carte par "💳 + 1 NEW CARD"
     const rawCards = text.split(/💳\s*\+\s*1\s*NEW\s*CARD/i).slice(1);
     const cards = rawCards.map(c => parseCard(c.trim())).filter(c => c);
     displayCards(cards);
@@ -114,12 +116,12 @@ function parseCard(msg) {
     zip: get(/Zip\s*:\s*(\d+)/i),
     base: get(/Base\s*:\s*(.*)/i),
     niveau: niveau,
-    prix: prix,
-    full: msg
+    prix: prix
   };
 }
 
 function getPrice(niveau) {
+  if (!niveau) return "-";
   niveau = niveau.toUpperCase();
   if (niveau.includes("CLASSIC")) return "50€";
   if (niveau.includes("GOLD")) return "70€";
@@ -144,7 +146,16 @@ function displayCards(cards) {
       <td><button class="demander">Demander</button></td>
     `;
     row.querySelector(".demander").onclick = () => {
-      const message = encodeURIComponent(card.full);
+      const message = encodeURIComponent(
+`💳 Carte demandée :
+BIN : ${card.bin}
+Banque : ${card.banque}
+DOB : ${card.dob}
+ZIP : ${card.zip}
+Base : ${card.base}
+Niveau : ${card.niveau}
+Prix : ${card.prix}`
+      );
       window.open(`https://t.me/${telegramUser}?text=${message}`, "_blank");
     };
     table.appendChild(row);
