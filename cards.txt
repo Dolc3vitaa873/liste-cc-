@@ -1746,3 +1746,34 @@ REZ_BOT, [09/07/2025 03:59]
 📍 Base : Colissimo
 [2025-07-08 21:59:49]
 └ © Traffyque :  [© 2024 - All rights reserved.]
+💳 + 1 NEW CARD
+└ 5200 7331 1245 9075
+
+🏦 Billing
+├ 👤 Nom Prénom : Thibaut-Rémy Roy
+├ 🏠 Adresse : rue Baron
+├ 🏙️ Ville : Pereira-sur-Lemaire
+├ 📮 Zip : 14859
+├ 📞 Numéro de téléphone : 0617 41 60 95
+└ 🎂 Date de naissance : 23/03/1976
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5200733112459075
+├ 📅 Expiration : 02/29
+└ 🔒 Cryptogramme visuel : 750
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : LCL
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #520073
+├ 🌐 IP : 131.27.242.134
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497049.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-19 04:38:38]
+└ © Traffyque :  [© 2024 - All rights reserved.]
