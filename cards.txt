@@ -1,5 +1,1624 @@
+REZ_BOT, [19/06/2025 05:00]
+💳 + 1 NEW CARD
+└ 4716 1365 9446 3538
+
+🏦 Billing
+├ 👤 Nom Prénom : Guillaume Lévy Le Maillard
+├ 🏠 Adresse : 54, avenue de Marin
+├ 🏙️ Ville : Delannoy-la-Forêt
+├ 📮 Zip : 78568
+├ 📞 Numéro de téléphone : 0762 81 46 16
+└ 🎂 Date de naissance : 13/04/1971
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4716136594463538
+├ 📅 Expiration : 06/28
+└ 🔒 Cryptogramme visuel : 933
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Société Générale
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #471613
+├ 🌐 IP : 214.104.47.89
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/534101.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-19 05:00:36]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [19/06/2025 05:02]
+💳 + 1 NEW CARD
+└ 5200 8333 0559 1782
+
+🏦 Billing
+├ 👤 Nom Prénom : Gérard Marques
+├ 🏠 Adresse : 54, chemin de Leroux
+├ 🏙️ Ville : Pages
+├ 📮 Zip : 02377
+├ 📞 Numéro de téléphone : 0660 97 94 70
+└ 🎂 Date de naissance : 15/07/1948
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5200833305591782
+├ 📅 Expiration : 09/26
+└ 🔒 Cryptogramme visuel : 872
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #520083
+├ 🌐 IP : 208.233.20.37
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497291.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-19 05:02:24]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [19/06/2025 05:02]
+💳 + 1 NEW CARD
+└ 4485 4681 9996 4409
+
+🏦 Billing
+├ 👤 Nom Prénom : Guy Gonzalez
+├ 🏠 Adresse : 73, avenue Girard
+├ 🏙️ Ville : Pottier
+├ 📮 Zip : 57555
+├ 📞 Numéro de téléphone : 0644 67 58 28
+└ 🎂 Date de naissance : 18/06/1962
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4485468199964409
+├ 📅 Expiration : 06/28
+└ 🔒 Cryptogramme visuel : 468
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #448546
+├ 🌐 IP : 194.71.245.65
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497355.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-19 05:02:40]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [19/06/2025 05:04]
+💳 + 1 NEW CARD
+└ 4485 3299 3263 9159
+
+🏦 Billing
+├ 👤 Nom Prénom : Rémy Prévost
+├ 🏠 Adresse : rue Richard
+├ 🏙️ Ville : Raynaud
+├ 📮 Zip : 54995
+├ 📞 Numéro de téléphone : 0791 23 43 38
+└ 🎂 Date de naissance : 19/07/1948
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4485329932639159
+├ 📅 Expiration : 02/26
+└ 🔒 Cryptogramme visuel : 398
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #448532
+├ 🌐 IP : 82.167.74.52
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497756.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-19 05:04:38]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:17]
+💳 + 1 NEW CARD
+└ 5309 4504 0181 9186
+
+🏦 Billing
+├ 👤 Nom Prénom : Margaret Barbe
+├ 🏠 Adresse : 545, avenue de Reynaud
+├ 🏙️ Ville : Vincent-sur-Maillet
+├ 📮 Zip : 31666
+├ 📞 Numéro de téléphone : 0632 70 66 64
+└ 🎂 Date de naissance : 11/03/1990
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5309450401819186
+├ 📅 Expiration : 11/26
+└ 🔒 Cryptogramme visuel : 695
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : LCL
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #530945
+├ 🌐 IP : 199.236.64.107
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/513641.png
+└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:17:01]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:19]
+💳 + 1 NEW CARD
+└ 5178 8948 5397 6552
+
+🏦 Billing
+├ 👤 Nom Prénom : Jacques Marques
+├ 🏠 Adresse : 7, boulevard Fleury
+├ 🏙️ Ville : Allardnec
+├ 📮 Zip : 44292
+├ 📞 Numéro de téléphone : 0789 88 45 19
+└ 🎂 Date de naissance : 25/08/1970
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5178894853976552
+├ 📅 Expiration : 10/29
+└ 🔒 Cryptogramme visuel : 134
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #517889
+├ 🌐 IP : 197.105.130.132
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497043.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:19:06]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:19]
+💳 + 1 NEW CARD
+└ 4539 4910 7706 5356
+
+🏦 Billing
+├ 👤 Nom Prénom : Alfred Torres
+├ 🏠 Adresse : 621, boulevard de Fontaine
+├ 🏙️ Ville : Georges
+├ 📮 Zip : 60384
+├ 📞 Numéro de téléphone : 0652 38 59 04
+└ 🎂 Date de naissance : 20/01/1985
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4539491077065356
+├ 📅 Expiration : 03/30
+└ 🔒 Cryptogramme visuel : 958
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Mutuel
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453949
+├ 🌐 IP : 109.34.12.123
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497602.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:19:28]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:21]
+💳 + 1 NEW CARD
+└ 4485 5060 1375 2235
+
+🏦 Billing
+├ 👤 Nom Prénom : Honoré Humbert
+├ 🏠 Adresse : 4, rue de Leblanc
+├ 🏙️ Ville : Martin
+├ 📮 Zip : 35538
+├ 📞 Numéro de téléphone : 0692 73 95 95
+└ 🎂 Date de naissance : 03/01/1982
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4485506013752235
+├ 📅 Expiration : 05/30
+└ 🔒 Cryptogramme visuel : 390
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : CIC
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #448550
+├ 🌐 IP : 121.205.105.157
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/456201.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:21:27]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:22]
+💳 + 1 NEW CARD
+└ 4532 9124 0824 7607
+
+🏦 Billing
+├ 👤 Nom Prénom : Françoise Mathieu-Barbe
+├ 🏠 Adresse : 68, boulevard de Arnaud
+├ 🏙️ Ville : Morvan-sur-Leblanc
+├ 📮 Zip : 37155
+├ 📞 Numéro de téléphone : 0683 33 40 47
+└ 🎂 Date de naissance : 04/09/1974
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4532912408247607
+├ 📅 Expiration : 06/27
+└ 🔒 Cryptogramme visuel : 500
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Banque Populaire
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453291
+├ 🌐 IP : 71.99.90.34
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497045.png
+└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
+📍 Base : Colissimo
+[2025-06-21 18:22:23]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:23]
+💳 + 1 NEW CARD
+└ 4024 2512 2687 4002
+
+🏦 Billing
+├ 👤 Nom Prénom : Brigitte Guillon
+├ 🏠 Adresse : 68, avenue Hugues Duval
+├ 🏙️ Ville : Sainte Bernard
+├ 📮 Zip : 76719
+├ 📞 Numéro de téléphone : 0672 50 08 47
+└ 🎂 Date de naissance : 04/09/1953
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4024251226874002
+├ 📅 Expiration : 02/26
+└ 🔒 Cryptogramme visuel : 596
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #402425
+├ 🌐 IP : 202.138.215.242
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497696.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:23:30]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:24]
+💳 + 1 NEW CARD
+└ 4485 9393 9379 3976
+
+🏦 Billing
+├ 👤 Nom Prénom : Aimée Boulanger
+├ 🏠 Adresse : 8, avenue Christine Germain
+├ 🏙️ Ville : Weiss-sur-Rolland
+├ 📮 Zip : 72410
+├ 📞 Numéro de téléphone : 0629 23 61 20
+└ 🎂 Date de naissance : 02/10/1973
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4485939393793976
+├ 📅 Expiration : 03/25
+└ 🔒 Cryptogramme visuel : 971
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #448593
+├ 🌐 IP : 139.22.208.136
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497988.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:24:34]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:26]
+💳 + 1 NEW CARD
+└ 5239 5026 5329 0301
+
+🏦 Billing
+├ 👤 Nom Prénom : Vincent Pereira
+├ 🏠 Adresse : 61, rue de Moreau
+├ 🏙️ Ville : Bertrand-sur-Duval
+├ 📮 Zip : 03239
+├ 📞 Numéro de téléphone : 0711 93 02 33
+└ 🎂 Date de naissance : 27/05/1966
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5239502653290301
+├ 📅 Expiration : 08/27
+└ 🔒 Cryptogramme visuel : 404
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #523950
+├ 🌐 IP : 28.201.124.47
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497756.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:26:28]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:27]
+💳 + 1 NEW CARD
+└ 4929 0392 7136 9695
+
+🏦 Billing
+├ 👤 Nom Prénom : Marie Andre du Lemoine
+├ 🏠 Adresse : 4, avenue Antoine Martinez
+├ 🏙️ Ville : Dufourboeuf
+├ 📮 Zip : 71945
+├ 📞 Numéro de téléphone : 0762 19 43 92
+└ 🎂 Date de naissance : 19/10/1977
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4929039271369695
+├ 📅 Expiration : 02/28
+└ 🔒 Cryptogramme visuel : 004
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Mutuel
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #492903
+├ 🌐 IP : 113.126.76.175
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497606.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:27:19]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:29]
+💳 + 1 NEW CARD
+└ 5239 6765 7470 6539
+
+🏦 Billing
+├ 👤 Nom Prénom : Édouard Lebrun-Weber
+├ 🏠 Adresse : 6, chemin Pierre Lemaire
+├ 🏙️ Ville : Dupuis
+├ 📮 Zip : 37687
+├ 📞 Numéro de téléphone : 0787 18 64 73
+└ 🎂 Date de naissance : 07/11/1960
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5239676574706539
+├ 📅 Expiration : 07/26
+└ 🔒 Cryptogramme visuel : 472
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : LCL
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #523967
+├ 🌐 IP : 214.140.141.185
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/529097.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:29:10]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:30]
+💳 + 1 NEW CARD
+└ 4539 1954 5938 5910
+
+🏦 Billing
+├ 👤 Nom Prénom : Catherine Turpin
+├ 🏠 Adresse : 4, avenue Gilbert
+├ 🏙️ Ville : Maillard
+├ 📮 Zip : 30115
+├ 📞 Numéro de téléphone : 0718 84 07 95
+└ 🎂 Date de naissance : 02/10/1982
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4539195459385910
+├ 📅 Expiration : 05/25
+└ 🔒 Cryptogramme visuel : 281
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453919
+├ 🌐 IP : 187.135.51.6
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/456933.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:30:09]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:32]
+💳 + 1 NEW CARD
+└ 4532 7748 1392 6338
+
+🏦 Billing
+├ 👤 Nom Prénom : Sabine Weber
+├ 🏠 Adresse : 14, boulevard Gabriel Gimenez
+├ 🏙️ Ville : Salmonboeuf
+├ 📮 Zip : 42429
+├ 📞 Numéro de téléphone : 0710 37 96 97
+└ 🎂 Date de naissance : 09/01/1977
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4532774813926338
+├ 📅 Expiration : 03/28
+└ 🔒 Cryptogramme visuel : 056
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453277
+├ 🌐 IP : 41.183.212.93
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/453314.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:32:00]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:32]
+💳 + 1 NEW CARD
+└ 5400 5324 8568 7796
+
+🏦 Billing
+├ 👤 Nom Prénom : Lucas Hoarau
+├ 🏠 Adresse : 86, avenue Joseph Meunier
+├ 🏙️ Ville : Saint Patriciadan
+├ 📮 Zip : 37161
+├ 📞 Numéro de téléphone : 0636 92 04 46
+└ 🎂 Date de naissance : 05/07/1966
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5400532485687796
+├ 📅 Expiration : 03/28
+└ 🔒 Cryptogramme visuel : 638
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : CIC
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #540053
+├ 🌐 IP : 65.121.132.211
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/529097.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:32:40]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:33]
+💳 + 1 NEW CARD
+└ 4532 6439 3597 5750
+
+🏦 Billing
+├ 👤 Nom Prénom : Stéphanie Barthelemy-Moreau
+├ 🏠 Adresse : 8, rue Boutin
+├ 🏙️ Ville : Buisson
+├ 📮 Zip : 41526
+├ 📞 Numéro de téléphone : 0619 83 55 72
+└ 🎂 Date de naissance : 12/09/1949
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4532643935975750
+├ 📅 Expiration : 09/25
+└ 🔒 Cryptogramme visuel : 094
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453264
+├ 🌐 IP : 30.234.126.111
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497043.png
+└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
+📍 Base : Colissimo
+[2025-06-21 18:33:53]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:34]
+💳 + 1 NEW CARD
+└ 4024 5611 9755 8857
+
+🏦 Billing
+├ 👤 Nom Prénom : Sabine Martel
+├ 🏠 Adresse : rue Lecoq
+├ 🏙️ Ville : Bourgeois-sur-Mer
+├ 📮 Zip : 76855
+├ 📞 Numéro de téléphone : 0722 29 35 43
+└ 🎂 Date de naissance : 03/07/1971
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4024561197558857
+├ 📅 Expiration : 12/28
+└ 🔒 Cryptogramme visuel : 558
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #402456
+├ 🌐 IP : 175.105.168.32
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497783.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:34:13]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:36]
+💳 + 1 NEW CARD
+└ 4929 2692 6708 6688
+
+🏦 Billing
+├ 👤 Nom Prénom : René Gillet
+├ 🏠 Adresse : 67, rue Maurice
+├ 🏙️ Ville : Saint Isabelle
+├ 📮 Zip : 87477
+├ 📞 Numéro de téléphone : 0670 95 93 54
+└ 🎂 Date de naissance : 16/05/1951
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4929269267086688
+├ 📅 Expiration : 07/26
+└ 🔒 Cryptogramme visuel : 818
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : La Banque Postale
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #492926
+├ 🌐 IP : 128.234.235.29
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/511580.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:36:08]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:37]
+💳 + 1 NEW CARD
+└ 5309 8984 9347 6963
+
+🏦 Billing
+├ 👤 Nom Prénom : Patrick Lopez
+├ 🏠 Adresse : 80, chemin Maurice Laurent
+├ 🏙️ Ville : Peronboeuf
+├ 📮 Zip : 91516
+├ 📞 Numéro de téléphone : 0752 22 91 18
+└ 🎂 Date de naissance : 02/04/1964
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5309898493476963
+├ 📅 Expiration : 10/30
+└ 🔒 Cryptogramme visuel : 156
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #530989
+├ 🌐 IP : 2.202.25.223
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/516794.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:37:34]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:37]
+💳 + 1 NEW CARD
+└ 5500 5172 2571 8365
+
+🏦 Billing
+├ 👤 Nom Prénom : Laetitia de la Teixeira
+├ 🏠 Adresse : 211, rue de Adam
+├ 🏙️ Ville : Sainte Claire
+├ 📮 Zip : 27838
+├ 📞 Numéro de téléphone : 0718 25 10 78
+└ 🎂 Date de naissance : 14/11/1944
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5500517225718365
+├ 📅 Expiration : 10/29
+└ 🔒 Cryptogramme visuel : 684
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : LCL
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #550051
+├ 🌐 IP : 70.207.200.149
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497999.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:37:55]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:39]
+💳 + 1 NEW CARD
+└ 5200 8157 3502 2227
+
+🏦 Billing
+├ 👤 Nom Prénom : Étienne Letellier
+├ 🏠 Adresse : 694, boulevard Rey
+├ 🏙️ Ville : Guillon
+├ 📮 Zip : 97382
+├ 📞 Numéro de téléphone : 0607 09 68 93
+└ 🎂 Date de naissance : 20/10/1965
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5200815735022227
+├ 📅 Expiration : 11/25
+└ 🔒 Cryptogramme visuel : 494
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #520081
+├ 🌐 IP : 193.96.53.209
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/534101.png
+└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
+📍 Base : Colissimo
+[2025-06-21 18:39:38]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:40]
+💳 + 1 NEW CARD
+└ 4916 1398 2701 3919
+
+🏦 Billing
+├ 👤 Nom Prénom : Corinne-Alexandrie Chauvet
+├ 🏠 Adresse : 774, rue Bigot
+├ 🏙️ Ville : Chevalier
+├ 📮 Zip : 69937
+├ 📞 Numéro de téléphone : 0732 80 60 31
+└ 🎂 Date de naissance : 26/06/1986
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4916139827013919
+├ 📅 Expiration : 02/29
+└ 🔒 Cryptogramme visuel : 022
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #491613
+├ 🌐 IP : 197.68.156.111
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/456201.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:40:33]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:42]
+💳 + 1 NEW CARD
+└ 5100 4121 0141 3099
+
+🏦 Billing
+├ 👤 Nom Prénom : Émile Philippe
+├ 🏠 Adresse : 13, avenue de Le Gall
+├ 🏙️ Ville : Riou
+├ 📮 Zip : 90289
+├ 📞 Numéro de téléphone : 0648 67 21 53
+└ 🎂 Date de naissance : 25/12/1944
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5100412101413099
+├ 📅 Expiration : 01/26
+└ 🔒 Cryptogramme visuel : 091
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Mutuel
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #510041
+├ 🌐 IP : 202.220.7.216
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/511580.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:42:00]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:42]
+💳 + 1 NEW CARD
+└ 4716 7327 9878 7562
+
+🏦 Billing
+├ 👤 Nom Prénom : Thibault Laurent
+├ 🏠 Adresse : 67, chemin de Courtois
+├ 🏙️ Ville : Morel-la-Forêt
+├ 📮 Zip : 24153
+├ 📞 Numéro de téléphone : 0711 42 02 11
+└ 🎂 Date de naissance : 21/05/2000
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4716732798787562
+├ 📅 Expiration : 10/27
+└ 🔒 Cryptogramme visuel : 283
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : CIC
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #471673
+├ 🌐 IP : 175.138.124.236
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/513608.png
+└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
+📍 Base : Colissimo
+[2025-06-21 18:42:17]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:43]
+💳 + 1 NEW CARD
+└ 4532 8917 7740 1522
+
+🏦 Billing
+├ 👤 Nom Prénom : Aurélie Roche
+├ 🏠 Adresse : chemin de Thierry
+├ 🏙️ Ville : Letellier
+├ 📮 Zip : 36217
+├ 📞 Numéro de téléphone : 0699 12 13 32
+└ 🎂 Date de naissance : 17/06/1969
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4532891777401522
+├ 📅 Expiration : 07/29
+└ 🔒 Cryptogramme visuel : 583
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453289
+├ 🌐 IP : 192.56.26.97
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497291.png
+└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
+📍 Base : Colissimo
+[2025-06-21 18:43:42]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:43]
+💳 + 1 NEW CARD
+└ 4485 8858 2441 0632
+
+🏦 Billing
+├ 👤 Nom Prénom : Agnès Guillaume
+├ 🏠 Adresse : 60, boulevard Antoinette Hardy
+├ 🏙️ Ville : Jourdan-la-Forêt
+├ 📮 Zip : 29229
+├ 📞 Numéro de téléphone : 0737 87 48 22
+└ 🎂 Date de naissance : 27/08/1961
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4485885824410632
+├ 📅 Expiration : 06/27
+└ 🔒 Cryptogramme visuel : 870
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #448588
+├ 🌐 IP : 169.27.150.92
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/478554.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:43:59]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:46]
+💳 + 1 NEW CARD
+└ 5309 3027 8746 6163
+
+🏦 Billing
+├ 👤 Nom Prénom : Pénélope Mary du Klein
+├ 🏠 Adresse : 47, rue Adrienne Lacroix
+├ 🏙️ Ville : Sainte Tristan-sur-Mer
+├ 📮 Zip : 78207
+├ 📞 Numéro de téléphone : 0701 37 75 55
+└ 🎂 Date de naissance : 29/03/1995
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5309302787466163
+├ 📅 Expiration : 03/29
+└ 🔒 Cryptogramme visuel : 868
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : LCL
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #530930
+├ 🌐 IP : 199.72.150.156
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/478554.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-06-21 18:45:57]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:47]
+💳 + 1 NEW CARD
+└ 4556 7020 8586 3071
+
+🏦 Billing
+├ 👤 Nom Prénom : Vincent Berthelot
+├ 🏠 Adresse : 51, boulevard de De Sousa
+├ 🏙️ Ville : Rivière-sur-Mer
+├ 📮 Zip : 87994
+├ 📞 Numéro de téléphone : 0605 42 93 91
+└ 🎂 Date de naissance : 21/03/1965
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4556702085863071
+├ 📅 Expiration : 07/29
+└ 🔒 Cryptogramme visuel : 297
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #455670
+├ 🌐 IP : 137.83.211.181
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497202.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:47:30]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:48]
+💳 + 1 NEW CARD
+└ 4539 7897 1486 5779
+
+🏦 Billing
+├ 👤 Nom Prénom : Jules Lagarde
+├ 🏠 Adresse : 664, rue de Daniel
+├ 🏙️ Ville : Riou
+├ 📮 Zip : 21341
+├ 📞 Numéro de téléphone : 0691 61 00 14
+└ 🎂 Date de naissance : 13/12/1956
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4539789714865779
+├ 📅 Expiration : 05/28
+└ 🔒 Cryptogramme visuel : 529
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453978
+├ 🌐 IP : 192.74.164.235
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/516794.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:48:39]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:49]
+💳 + 1 NEW CARD
+└ 4929 1425 9064 1659
+
+🏦 Billing
+├ 👤 Nom Prénom : Alexandrie Fontaine
+├ 🏠 Adresse : boulevard Josette Dupré
+├ 🏙️ Ville : Saint Yves
+├ 📮 Zip : 55656
+├ 📞 Numéro de téléphone : 0749 11 56 09
+└ 🎂 Date de naissance : 19/07/1969
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4929142590641659
+├ 📅 Expiration : 05/25
+└ 🔒 Cryptogramme visuel : 835
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Société Générale
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : BUSINESS
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #492914
+├ 🌐 IP : 183.247.89.32
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/534101.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:49:20]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:51]
+💳 + 1 NEW CARD
+└ 5400 1882 3172 6633
+
+🏦 Billing
+├ 👤 Nom Prénom : Jean Morin
+├ 🏠 Adresse : 91, avenue Nicolas
+├ 🏙️ Ville : Reynec
+├ 📮 Zip : 26287
+├ 📞 Numéro de téléphone : 0636 84 11 56
+└ 🎂 Date de naissance : 10/11/1988
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5400188231726633
+├ 📅 Expiration : 06/27
+└ 🔒 Cryptogramme visuel : 692
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #540018
+├ 🌐 IP : 117.146.196.74
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/513641.png
+└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:51:02]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:52]
+💳 + 1 NEW CARD
+└ 5309 2734 6890 2653
+
+🏦 Billing
+├ 👤 Nom Prénom : Victor Ferreira
+├ 🏠 Adresse : rue Margaud Andre
+├ 🏙️ Ville : Samson
+├ 📮 Zip : 93894
+├ 📞 Numéro de téléphone : 0676 76 81 11
+└ 🎂 Date de naissance : 20/10/1988
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5309273468902653
+├ 📅 Expiration : 01/26
+└ 🔒 Cryptogramme visuel : 663
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Société Générale
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #530927
+├ 🌐 IP : 215.237.10.146
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497355.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-06-21 18:52:24]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:52]
+💳 + 1 NEW CARD
+└ 5100 6090 3079 5372
+
+🏦 Billing
+├ 👤 Nom Prénom : Thomas Hervé
+├ 🏠 Adresse : 68, chemin Gay
+├ 🏙️ Ville : Moreaunec
+├ 📮 Zip : 06230
+├ 📞 Numéro de téléphone : 0714 80 46 24
+└ 🎂 Date de naissance : 04/06/1988
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5100609030795372
+├ 📅 Expiration : 01/28
+└ 🔒 Cryptogramme visuel : 980
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #510060
+├ 🌐 IP : 131.255.112.96
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497874.png
+└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:52:42]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:54]
+💳 + 1 NEW CARD
+└ 4916 8463 8013 1962
+
+🏦 Billing
+├ 👤 Nom Prénom : Antoinette Lemaître
+├ 🏠 Adresse : 1, rue Royer
+├ 🏙️ Ville : Perez-la-Forêt
+├ 📮 Zip : 47741
+├ 📞 Numéro de téléphone : 0621 33 78 57
+└ 🎂 Date de naissance : 02/09/2004
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4916846380131962
+├ 📅 Expiration : 02/29
+└ 🔒 Cryptogramme visuel : 420
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #491684
+├ 🌐 IP : 88.115.170.75
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/511580.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:54:45]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:55]
+💳 + 1 NEW CARD
+└ 4716 0257 4979 6610
+
+🏦 Billing
+├ 👤 Nom Prénom : David Gérard
+├ 🏠 Adresse : 85, rue Vincent
+├ 🏙️ Ville : BonnetVille
+├ 📮 Zip : 25450
+├ 📞 Numéro de téléphone : 0702 68 14 80
+└ 🎂 Date de naissance : 13/09/1960
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4716025749796610
+├ 📅 Expiration : 04/28
+└ 🔒 Cryptogramme visuel : 380
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #471602
+├ 🌐 IP : 200.156.56.87
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/416598.png
+└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:55:08]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [21/06/2025 18:57]
+💳 + 1 NEW CARD
+└ 5239 6409 0976 5980
+
+🏦 Billing
+├ 👤 Nom Prénom : Brigitte Pinto-Mahe
+├ 🏠 Adresse : 34, boulevard Meyer
+├ 🏙️ Ville : Thierry
+├ 📮 Zip : 02237
+├ 📞 Numéro de téléphone : 0656 39 30 69
+└ 🎂 Date de naissance : 20/11/1995
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5239640909765980
+├ 📅 Expiration : 01/27
+└ 🔒 Cryptogramme visuel : 833
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Société Générale
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #523964
+├ 🌐 IP : 40.221.133.139
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497999.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-06-21 18:57:10]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:48]
+💳 + 1 NEW CARD
+└ 4539 8344 3414 7998
+
+🏦 Billing
+├ 👤 Nom Prénom : Marc Germain
+├ 🏠 Adresse : avenue de Faivre
+├ 🏙️ Ville : Gilletdan
+├ 📮 Zip : 73973
+├ 📞 Numéro de téléphone : 0669 16 09 92
+└ 🎂 Date de naissance : 10/02/1985
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4539834434147998
+├ 📅 Expiration : 06/26
+└ 🔒 Cryptogramme visuel : 761
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453983
+├ 🌐 IP : 222.213.163.3
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497999.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-07-08 14:48:15]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:48]
+💳 + 1 NEW CARD
+└ 4539 7520 5550 3442
+
+🏦 Billing
+├ 👤 Nom Prénom : Émilie Collin
+├ 🏠 Adresse : chemin Moulin
+├ 🏙️ Ville : Guyon
+├ 📮 Zip : 02491
+├ 📞 Numéro de téléphone : 0766 58 30 29
+└ 🎂 Date de naissance : 30/01/1971
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4539752055503442
+├ 📅 Expiration : 08/25
+└ 🔒 Cryptogramme visuel : 052
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : La Banque Postale
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453975
+├ 🌐 IP : 205.74.37.7
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/407461.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-07-08 14:48:48]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:50]
+💳 + 1 NEW CARD
+└ 5200 3892 7852 4496
+
+🏦 Billing
+├ 👤 Nom Prénom : Édouard Breton
+├ 🏠 Adresse : avenue de Goncalves
+├ 🏙️ Ville : Coulon
+├ 📮 Zip : 83707
+├ 📞 Numéro de téléphone : 0711 35 05 85
+└ 🎂 Date de naissance : 19/11/1958
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5200389278524496
+├ 📅 Expiration : 11/26
+└ 🔒 Cryptogramme visuel : 845
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : LCL
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #520038
+├ 🌐 IP : 30.249.223.202
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/453332.png
+└ 🖥️ OS : Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+
+📍 Base : Colissimo
+[2025-07-08 14:50:01]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:50]
+💳 + 1 NEW CARD
+└ 4485 3228 2064 5907
+
+🏦 Billing
+├ 👤 Nom Prénom : Jules Berger du Bègue
+├ 🏠 Adresse : 435, boulevard Alexandre Lebreton
+├ 🏙️ Ville : Étienne
+├ 📮 Zip : 27694
+├ 📞 Numéro de téléphone : 0786 83 48 62
+└ 🎂 Date de naissance : 20/02/1950
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4485322820645907
+├ 📅 Expiration : 12/26
+└ 🔒 Cryptogramme visuel : 742
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #448532
+├ 🌐 IP : 206.18.9.48
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/513641.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-07-08 14:50:49]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:52]
+💳 + 1 NEW CARD
+└ 5309 2762 3390 2400
+
+🏦 Billing
+├ 👤 Nom Prénom : Alexandria Denis de Alves
+├ 🏠 Adresse : 22, chemin Nicolas
+├ 🏙️ Ville : Sainte Camille
+├ 📮 Zip : 06587
+├ 📞 Numéro de téléphone : 0661 87 54 87
+└ 🎂 Date de naissance : 11/06/1999
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5309276233902400
+├ 📅 Expiration : 09/28
+└ 🔒 Cryptogramme visuel : 115
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #530927
+├ 🌐 IP : 144.91.107.100
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/416538.png
+└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-07-08 14:52:51]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:53]
+💳 + 1 NEW CARD
+└ 4539 5263 2327 1830
+
+🏦 Billing
+├ 👤 Nom Prénom : Louis-André Lefèvre
+├ 🏠 Adresse : avenue de Peltier
+├ 🏙️ Ville : VerdierVille
+├ 📮 Zip : 50532
+├ 📞 Numéro de téléphone : 0647 36 14 68
+└ 🎂 Date de naissance : 30/03/1968
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4539526323271830
+├ 📅 Expiration : 07/29
+└ 🔒 Cryptogramme visuel : 741
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #453952
+├ 🌐 IP : 29.83.19.176
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497679.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-07-08 14:53:50]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:55]
+💳 + 1 NEW CARD
+└ 5178 7834 1545 6967
+
+🏦 Billing
+├ 👤 Nom Prénom : Susan Boyer
+├ 🏠 Adresse : 502, rue Lucas
+├ 🏙️ Ville : Lesage
+├ 📮 Zip : 61879
+├ 📞 Numéro de téléphone : 0698 50 84 61
+└ 🎂 Date de naissance : 02/10/1966
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5178783415456967
+├ 📅 Expiration : 01/26
+└ 🔒 Cryptogramme visuel : 284
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Mutuel
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #517878
+├ 🌐 IP : 52.38.237.39
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497043.png
+└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-07-08 14:55:12]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:55]
+💳 + 1 NEW CARD
+└ 5200 0097 4652 4576
+
+🏦 Billing
+├ 👤 Nom Prénom : Caroline Lebon-Hamon
+├ 🏠 Adresse : 32, rue Thomas Marie
+├ 🏙️ Ville : Gillet
+├ 📮 Zip : 37633
+├ 📞 Numéro de téléphone : 0768 44 70 44
+└ 🎂 Date de naissance : 09/05/1958
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5200009746524576
+├ 📅 Expiration : 12/27
+└ 🔒 Cryptogramme visuel : 521
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Crédit Agricole
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : INFINITE
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #520000
+├ 🌐 IP : 214.242.88.166
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/456144.png
+└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
+📍 Base : Colissimo
+[2025-07-08 14:55:32]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:57]
+💳 + 1 NEW CARD
+└ 4556 1218 8921 4765
+
+🏦 Billing
+├ 👤 Nom Prénom : Jean Lefèvre
+├ 🏠 Adresse : 3, rue Camille Leroux
+├ 🏙️ Ville : Masse
+├ 📮 Zip : 57200
+├ 📞 Numéro de téléphone : 0712 73 60 50
+└ 🎂 Date de naissance : 27/03/2003
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4556121889214765
+├ 📅 Expiration : 03/27
+└ 🔒 Cryptogramme visuel : 869
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : HSBC France
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #455612
+├ 🌐 IP : 123.122.1.55
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497355.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-07-08 14:57:22]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:58]
+💳 + 1 NEW CARD
+└ 5309 2645 9241 8808
+
+🏦 Billing
+├ 👤 Nom Prénom : Pauline Guibert
+├ 🏠 Adresse : boulevard de Bazin
+├ 🏙️ Ville : Saint Zoé
+├ 📮 Zip : 09317
+├ 📞 Numéro de téléphone : 0614 53 73 41
+└ 🎂 Date de naissance : 10/06/1964
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 5309264592418808
+├ 📅 Expiration : 07/27
+└ 🔒 Cryptogramme visuel : 898
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : BNP Paribas
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : GOLD
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #530926
+├ 🌐 IP : 217.107.186.94
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/416598.png
+└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
+📍 Base : Colissimo
+[2025-07-08 14:58:17]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 20:59]
+💳 + 1 NEW CARD
+└ 4716 0920 2754 3364
+
+🏦 Billing
+├ 👤 Nom Prénom : Jacques Benoit
+├ 🏠 Adresse : 37, boulevard Le Gall
+├ 🏙️ Ville : Lopez
+├ 📮 Zip : 82188
+├ 📞 Numéro de téléphone : 0766 49 21 31
+└ 🎂 Date de naissance : 28/02/2007
+
+🏦 Carte de Paiement
+├ 💳 Numéro de carte : 4716092027543364
+├ 📅 Expiration : 12/25
+└ 🔒 Cryptogramme visuel : 279
+
+🗃 Coordonnées Bancaires
+├ 🏷️ Nom de la banque : Boursorama
+├ 🏷️ Type : Crédit
+├ 🏷️ Niveau : CLASSIC
+└ 🏷️ Country : France
+
+🧩 Extra
+├ 🏷️ Bin : #471609
+├ 🌐 IP : 213.98.29.158
+├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497874.png
+└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
+📍 Base : Colissimo
+[2025-07-08 14:59:57]
+└ © Traffyque :  [© 2024 - All rights reserved.]
+
+REZ_BOT, [08/07/2025 21:01]
 💳 + 1 NEW CARD
 └ 5300 3581 3415 8075
+
 🏦 Billing
 ├ 👤 Nom Prénom : Étienne-Adrien Petit
 ├ 🏠 Adresse : 83, chemin de Perez
@@ -7,26 +1626,32 @@
 ├ 📮 Zip : 67970
 ├ 📞 Numéro de téléphone : 0785 26 33 50
 └ 🎂 Date de naissance : 24/10/1975
+
 🏦 Carte de Paiement
 ├ 💳 Numéro de carte : 5300358134158075
 ├ 📅 Expiration : 10/30
 └ 🔒 Cryptogramme visuel : 664
+
 🗃 Coordonnées Bancaires
 ├ 🏷️ Nom de la banque : La Banque Postale
 ├ 🏷️ Type : Crédit
 ├ 🏷️ Niveau : INFINITE
 └ 🏷️ Country : France
+
 🧩 Extra
 ├ 🏷️ Bin : #530035
 ├ 🌐 IP : 36.3.216.170
 ├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/481001.png
 └ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
+
 📍 Base : Colissimo
 [2025-07-08 15:01:23]
 └ © Traffyque :  [© 2024 - All rights reserved.]
 
+REZ_BOT, [08/07/2025 21:02]
 💳 + 1 NEW CARD
 └ 5239 5483 5260 8785
+
 🏦 Billing
 ├ 👤 Nom Prénom : Thierry Auger
 ├ 🏠 Adresse : 964, rue de Robert
@@ -34,26 +1659,32 @@
 ├ 📮 Zip : 09988
 ├ 📞 Numéro de téléphone : 0710 22 94 48
 └ 🎂 Date de naissance : 08/03/1959
+
 🏦 Carte de Paiement
 ├ 💳 Numéro de carte : 5239548352608785
 ├ 📅 Expiration : 07/26
 └ 🔒 Cryptogramme visuel : 560
+
 🗃 Coordonnées Bancaires
 ├ 🏷️ Nom de la banque : BNP Paribas
 ├ 🏷️ Type : Crédit
 ├ 🏷️ Niveau : INFINITE
 └ 🏷️ Country : France
+
 🧩 Extra
 ├ 🏷️ Bin : #523954
 ├ 🌐 IP : 206.52.236.1
 ├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/478554.png
 └ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
+
 📍 Base : Colissimo
 [2025-07-08 15:02:41]
 └ © Traffyque :  [© 2024 - All rights reserved.]
 
+REZ_BOT, [08/07/2025 21:03]
 💳 + 1 NEW CARD
 └ 4716 0585 0904 3806
+
 🏦 Billing
 ├ 👤 Nom Prénom : Astrid Da Costa de la Lebreton
 ├ 🏠 Adresse : 9, boulevard Delattre
@@ -66,20 +1697,24 @@
 ├ 💳 Numéro de carte : 4716058509043806
 ├ 📅 Expiration : 07/30
 └ 🔒 Cryptogramme visuel : 792
+
 🗃 Coordonnées Bancaires
 ├ 🏷️ Nom de la banque : CIC
 ├ 🏷️ Type : Crédit
 ├ 🏷️ Niveau : BUSINESS
 └ 🏷️ Country : France
+
 🧩 Extra
 ├ 🏷️ Bin : #471605
 ├ 🌐 IP : 1.209.254.211
 ├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497988.png
 └ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
+
 📍 Base : Colissimo
 [2025-07-08 15:03:42]
 └ © Traffyque :  [© 2024 - All rights reserved.]
 
+REZ_BOT, [09/07/2025 03:59]
 💳 + 1 NEW CARD
 └ 4929 7343 9794 2226
 
@@ -90,236 +1725,24 @@
 ├ 📮 Zip : 35466
 ├ 📞 Numéro de téléphone : 0730 38 62 86
 └ 🎂 Date de naissance : 20/06/1981
+
 🏦 Carte de Paiement
 ├ 💳 Numéro de carte : 4929734397942226
 ├ 📅 Expiration : 09/29
 └ 🔒 Cryptogramme visuel : 758
+
 🗃 Coordonnées Bancaires
 ├ 🏷️ Nom de la banque : Société Générale
 ├ 🏷️ Type : Crédit
 ├ 🏷️ Niveau : GOLD
 └ 🏷️ Country : France
+
 🧩 Extra
 ├ 🏷️ Bin : #492973
 ├ 🌐 IP : 179.114.156.232
 ├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497413.png
 └ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
+
 📍 Base : Colissimo
 [2025-07-08 21:59:49]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 5500 4396 4183 8262
-🏦 Billing
-├ 👤 Nom Prénom : Catherine Guichard
-├ 🏠 Adresse : rue de Faivre
-├ 🏙️ Ville : Sainte Maggie-la-Forêt
-├ 📮 Zip : 15684
-├ 📞 Numéro de téléphone : 0687 88 41 14
-└ 🎂 Date de naissance : 25/08/1972
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 5500439641838262
-├ 📅 Expiration : 06/30
-└ 🔒 Cryptogramme visuel : 483
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : CIC
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : BUSINESS
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #550043
-├ 🌐 IP : 159.215.142.127
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/549858.png
-└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
-📍 Base : Colissimo
-[2025-07-08 22:01:13]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 4539 2918 0419 8697
-🏦 Billing
-├ 👤 Nom Prénom : Gabriel Bouvet
-├ 🏠 Adresse : 2, rue Boulanger
-├ 🏙️ Ville : Gilles
-├ 📮 Zip : 63763
-├ 📞 Numéro de téléphone : 0615 74 90 72
-└ 🎂 Date de naissance : 08/11/1987
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 4539291804198697
-├ 📅 Expiration : 10/29
-└ 🔒 Cryptogramme visuel : 429
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : La Banque Postale
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : BUSINESS
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #453929
-├ 🌐 IP : 188.209.228.44
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497045.png
-└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X)
-📍 Base : Colissimo
-[2025-07-08 22:01:54]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 4716 4284 0781 3181
-🏦 Billing
-├ 👤 Nom Prénom : Christiane Guyot
-├ 🏠 Adresse : boulevard Martin Lopes
-├ 🏙️ Ville : Giraud
-├ 📮 Zip : 93887
-├ 📞 Numéro de téléphone : 0654 64 61 52
-└ 🎂 Date de naissance : 22/03/1960
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 4716428407813181
-├ 📅 Expiration : 09/28
-└ 🔒 Cryptogramme visuel : 259
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : Banque Populaire
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : BUSINESS
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #471642
-├ 🌐 IP : 213.33.157.143
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/534101.png
-└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
-📍 Base : Colissimo
-[2025-07-08 22:02:58]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 4556 9902 4276 9049
-🏦 Billing
-├ 👤 Nom Prénom : Éric Foucher-Lebreton
-├ 🏠 Adresse : 545, rue de Michel
-├ 🏙️ Ville : Riou-sur-Mahe
-├ 📮 Zip : 47151
-├ 📞 Numéro de téléphone : 0635 84 25 55
-└ 🎂 Date de naissance : 20/07/1995
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 4556990242769049
-├ 📅 Expiration : 03/26
-└ 🔒 Cryptogramme visuel : 636
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : CIC
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : BUSINESS
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #455699
-├ 🌐 IP : 128.234.110.85
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497728.png
-└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
-📍 Base : Colissimo
-[2025-07-08 22:04:04]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 4532 5034 8882 3452
-🏦 Billing
-├ 👤 Nom Prénom : Bernadette-Brigitte Carpentier
-├ 🏠 Adresse : 39, avenue de Barre
-├ 🏙️ Ville : Saint Christiane
-├ 📮 Zip : 04341
-├ 📞 Numéro de téléphone : 0657 11 30 55
-└ 🎂 Date de naissance : 03/03/1958
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 4532503488823452
-├ 📅 Expiration : 05/29
-└ 🔒 Cryptogramme visuel : 315
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : La Banque Postale
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : GOLD
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #453250
-├ 🌐 IP : 174.216.79.134
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497202.png
-└ 🖥️ OS : Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X)
-📍 Base : Colissimo
-[2025-07-08 22:05:50]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 5400 0376 5801 4034
-🏦 Billing
-├ 👤 Nom Prénom : Charlotte Étienne
-├ 🏠 Adresse : 1, chemin de Barbier
-├ 🏙️ Ville : Saint Aimée
-├ 📮 Zip : 31288
-├ 📞 Numéro de téléphone : 0647 97 19 48
-└ 🎂 Date de naissance : 01/05/1993
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 5400037658014034
-├ 📅 Expiration : 07/28
-└ 🔒 Cryptogramme visuel : 623
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : Crédit Mutuel
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : INFINITE
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #540003
-├ 🌐 IP : 25.157.166.204
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497783.png
-└ 🖥️ OS : Mozilla/5.0 (Linux; Android 13)
-📍 Base : Colissimo
-[2025-07-08 22:06:15]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 5500 0757 5087 3444
-🏦 Billing
-├ 👤 Nom Prénom : François Gilles du Duval
-├ 🏠 Adresse : 67, boulevard de Lejeune
-├ 🏙️ Ville : Saint ChristianeBourg
-├ 📮 Zip : 66776
-├ 📞 Numéro de téléphone : 0657 94 03 27
-└ 🎂 Date de naissance : 16/10/1973
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 5500075750873444
-├ 📅 Expiration : 12/27
-└ 🔒 Cryptogramme visuel : 706
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : Crédit Mutuel
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : INFINITE
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #550007
-├ 🌐 IP : 161.213.70.44
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/453314.png
-└ 🖥️ OS : Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1)
-📍 Base : Colissimo
-[2025-07-08 22:07:44]
-└ © Traffyque :  [© 2024 - All rights reserved.]
-
-💳 + 1 NEW CARD
-└ 5100 2939 6129 8242
-🏦 Billing
-├ 👤 Nom Prénom : Charles Charrier Le Delahaye
-├ 🏠 Adresse : 5, boulevard Olivier Weber
-├ 🏙️ Ville : Dupuis
-├ 📮 Zip : 02671
-├ 📞 Numéro de téléphone : 0731 10 71 94
-└ 🎂 Date de naissance : 22/12/1986
-🏦 Carte de Paiement
-├ 💳 Numéro de carte : 5100293961298242
-├ 📅 Expiration : 09/29
-└ 🔒 Cryptogramme visuel : 773
-🗃 Coordonnées Bancaires
-├ 🏷️ Nom de la banque : Société Générale
-├ 🏷️ Type : Crédit
-├ 🏷️ Niveau : GOLD
-└ 🏷️ Country : France
-🧩 Extra
-├ 🏷️ Bin : #510029
-├ 🌐 IP : 222.205.96.28
-├ 🖼️ SCAN : https://cardimages.imaginecurve.com/cards/497602.png
-└ 🖥️ OS : Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) 
-📍 Base : Colissimo
-[2025-07-08 22:08:11]
 └ © Traffyque :  [© 2024 - All rights reserved.]
