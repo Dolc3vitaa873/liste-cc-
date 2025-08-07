@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartes disponibles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      margin: 0;
+    }
+    header {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.6em;
+      font-weight: bold;
+      border-bottom: 1px solid #ddd;
+    }
+    #counter {
+      text-align: center;
+      font-size: 1.1em;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    thead {
+      background: #fafafa;
+    }
+    thead th {
+      padding: 12px 10px;
+      font-size: 0.9em;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    tbody tr {
+      border-bottom: 1px solid #eee;
+    }
+    tbody tr:hover {
+      background: #f9f9f9;
+    }
+    tbody td {
+      padding: 10px;
+      font-size: 0.9em;
+      vertical-align: middle;
+    }
+    button.demander {
+      background-color: #28a745;
+      color: white;
+      padding: 6px 14px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 4px;
+      font-size: 0.85em;
+    }
+    button.demander:hover {
+      background-color: #218838;
+    }
+    .flag {
+      font-size: 1.1em;
+      margin-left: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<header>Cartes disponibles</header>
+<div id="counter">Cartes disponibles : 0</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>BIN</th>
+      <th>Banque</th>
+      <th>DOB</th>
+      <th>ZIP</th>
+      <th>Base</th>
+      <th>Niveau</th>
+      <th>Prix</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="cardsTable"></tbody>
+</table>
+
+<script>
+const telegramUser = "dolc3vitaa1";
+
+fetch('./cards.txt')
+  .then(res => res.text())
+  .then(text => {
+    const rawCards = text.split(/💳\s*\+\s*1\s*NEW\s*CARD/i).slice(1);
+    const cards = rawCards.map(c => parseCard(c.trim())).filter(c => c);
+    displayCards(cards);
+  })
+  .catch(err => console.error("Erreur chargement cards.txt", err));
+
+function parseCard(msg) {
+  const get = (regex) => (msg.match(regex) || [,""])[1].trim();
+
+  let niveau = get(/Niveau\s*:\s*(.*)/i);
+  let prix = getPrice(niveau);
+
+  return {
+    bin: get(/Bin\s*:\s*#?(\d+)/i),
+    banque: get(/Nom de la banque\s*:\s*(.*)/i),
+    dob: get(/Date de naissance\s*:\s*(.*)/i),
+    zip: get(/Zip\s*:\s*(\d+)/i),
+    base: get(/Base\s*:\s*(.*)/i),
+    niveau: niveau,
+    prix: prix
+  };
+}
+
+function getPrice(niveau) {
+  if (!niveau) return "-";
+  niveau = niveau.toUpperCase();
+  if (niveau.includes("CLASSIC")) return "50€";
+  if (niveau.includes("GOLD")) return "70€";
+  if (niveau.includes("BUSINESS")) return "100€";
+  if (niveau.includes("INFINITE")) return "150€";
+  return "-";
+}
+
+function displayCards(cards) {
+  const table = document.getElementById("cardsTable");
+  table.innerHTML = "";
+  cards.forEach(card => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${card.bin}</td>
+      <td>${card.banque} <span class="flag">🇫🇷</span></td>
+      <td>${card.dob}</td>
+      <td>${card.zip}</td>
+      <td>${card.base}</td>
+      <td>${card.niveau}</td>
+      <td>${card.prix}</td>
+      <td><button class="demander">Demander</button></td>
+    `;
+    row.querySelector(".demander").onclick = () => {
+      const message = encodeURIComponent(
+\`💳 Carte demandée :
+BIN : ${card.bin}
+Banque : ${card.banque}
+DOB : ${card.dob}
+ZIP : ${card.zip}
+Base : ${card.base}
+Niveau : ${card.niveau}
+Prix : ${card.prix}\`);
+      window.open(\`https://t.me/${telegramUser}?text=\${message}\`, "_blank");
+    };
+    table.appendChild(row);
+  });
+  document.getElementById("counter").innerText = \`Cartes disponibles : \${cards.length}\`;
+}
+</script>
+
+</body>
+</html>
