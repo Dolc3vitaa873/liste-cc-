@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Bara No Stop — Cartes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root{
+    --bg:#0f1115;
+    --card:#0f1720;
+    --glass: rgba(255,255,255,0.04);
+    --accent:#6ee7b7;
+    --muted:#9aa3ad;
+    --danger:#ef4444;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  html,body{height:100%;margin:0;background:linear-gradient(180deg,#0b0c0f 0%, #0f1115 100%);color:#e6eef6}
+  .wrap{max-width:980px;margin:12px auto;padding:12px;}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+  header h1{font-size:18px;margin:0;color:var(--accent)}
+  .counters{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .chip{background:var(--glass);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted);min-width:86px;text-align:center}
+  .chip strong{display:block;color:#fff;font-size:14px}
+  main{margin-top:12px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .card{
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border:1px solid rgba(255,255,255,0.03);
+    padding:12px;border-radius:10px;backdrop-filter: blur(6px);
+  }
+  .card .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .card .title{font-weight:700;color:#fff;font-size:14px}
+  .card .meta{color:var(--muted);font-size:12px}
+  .card .body{margin-top:8px;font-size:13px;color:#dbe9f8;line-height:1.4}
+  .card .small{font-size:12px;color:var(--muted)}
+  .btn{
+    display:inline-block;padding:8px 12px;border-radius:8px;border:none;background:linear-gradient(90deg,var(--accent),#34d399);color:#051217;font-weight:700;cursor:pointer;margin-top:8px
+  }
+  .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--accent)}
+  .center{display:flex;gap:8px;align-items:center}
+  .search{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff}
+  .fullwidth{width:100%}
+  .modal{position:fixed;inset:0;background:rgba(3,6,10,0.6);display:flex;align-items:center;justify-content:center;z-index:40;display:none}
+  .modal .box{width:95%;max-width:420px;background:linear-gradient(180deg,#0b0f14,#071018);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+  .modal.show{display:flex}
+  .row{display:flex;gap:8px;align-items:center}
+  @media(max-width:800px){
+    .grid{grid-template-columns:1fr}
+    header{flex-direction:column;align-items:flex-start;gap:10px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Bara No Stop — Cartes disponibles</h1>
+    <div class="counters">
+      <div class="chip"><span class="small">Total</span><strong id="countTotal">0</strong></div>
+      <div class="chip"><span class="small">Classic</span><strong id="countClassic">0</strong></div>
+      <div class="chip"><span class="small">Gold</span><strong id="countGold">0</strong></div>
+      <div class="chip"><span class="small">Business</span><strong id="countBusiness">0</strong></div>
+      <div class="chip"><span class="small">Infinite</span><strong id="countInfinite">0</strong></div>
+    </div>
+  </header>
+
+  <main>
+    <div style="display:flex;gap:8px;margin:10px 0;">
+      <input id="filterInput" class="search" placeholder="Rechercher par BIN, banque, ville..." />
+      <button id="refreshBtn" class="btn-ghost">Rafraîchir</button>
+    </div>
+
+    <div id="cardsGrid" class="grid"></div>
+  </main>
+</div>
+
+<!-- Modal de demande -->
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="box">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <strong>Demande de carte</strong>
+      <button id="modalClose" class="btn-ghost">X</button>
+    </div>
+    <p id="modalCardText" class="small" style="margin-top:8px;color:var(--muted)"></p>
+    <div style="margin-top:8px">
+      <label class="small">Ton pseudo Telegram (commence par @)</label>
+      <input id="telegramInput" class="search fullwidth" placeholder="@pseudo_telegram" />
+    </div>
+    <div style="display:flex;gap:8px;margin-top:10px;">
+      <button id="sendRequestBtn" class="btn fullwidth">Envoyer la demande</button>
+    </div>
+    <p id="modalMsg" class="small" style="margin-top:8px;color:var(--muted)"></p>
+  </div>
+</div>
+
+<script>
+const TELEGRAM_DISPLAY = ''; // si tu veux garder un pseudo visible par défaut, sinon vide
+const EMAIL_TO = 'baranostop28@gmail.com';
+let cardsRaw = []; // tableau des blocs bruts
+let cards = [];    // objets parsés
+let activeCardIndex = null;
+
+// charger et parser cards.txt
+async function loadCards() {
+  try {
+    const res = await fetch('./cards.txt');
+    const txt = await res.text();
+    // séparation en blocs, on garde l'entête séparateur pour faciliter la recherche
+    const parts = txt.split(/(?=💳\s*\+\s*1\s*NEW\s*CARD)/iu);
+    cardsRaw = parts.filter(p => p.trim().length > 0);
+    cards = cardsRaw.map((blk, idx) => parseBlock(blk, idx)).filter(Boolean);
+    renderCards(cards);
+    updateCounters();
+  } catch(e){
+    console.error('Erreur chargement cards.txt', e);
+    document.getElementById('cardsGrid').innerHTML = '<div style="color:var(--danger)">Impossible de charger cards.txt</div>';
+  }
+}
+
+// parser un bloc brut en objet
+function parseBlock(block, idx){
+  // normalize newlines and trim
+  const b = block.replace(/\r/g,'').trim();
+  // tente extraire champs importants avec regex permissives
+  const extract = (rx) => {
+    const m = b.match(rx);
+    return m ? m[1].trim() : '';
+  };
+
+  // numéro de carte complet
+  const cardNumber = extract(/Numéro de carte\s*:\s*([0-9]{12,19})/i) ||
+                     extract(/└\s*([0-9 ]{12,24})/i) ||
+                     extract(/^\s*└\s*([0-9 ]{12,24})/m);
+
+  const sanitizedNumber = cardNumber ? cardNumber.replace(/\s+/g,'') : '';
+
+  const binFromExtra = extract(/Bin\s*:\s*#?(\d{6})/i) || (sanitizedNumber ? sanitizedNumber.slice(0,6) : '');
+  const bank = extract(/Nom de la banque\s*:\s*(.+)/i) || extract(/┤\s*Nom.*:\s*(.+)/i);
+  const name = extract(/Nom Prénom\s*:\s*(.+)/i) || extract(/👤\s*Nom Prénom\s*:\s*(.+)/i);
+  const zip = extract(/Zip\s*:\s*(\d{2,6})/i);
+  const ville = extract(/Ville\s*:\s*(.+)/i);
+  const dob = extract(/Date de naissance\s*:\s*(.+)/i) || extract(/🎂\s*Date de naissance\s*:\s*(.+)/i);
+  const exp = extract(/Expiration\s*:\s*([0-9/]+)/i) || extract(/📅\s*Expiration\s*:\s*([0-9/]+)/i);
+  const ccv = extract(/Cryptogramme visuel\s*:\s*(\d{3,4})/i) || extract(/🔒\s*Cryptogramme visuel\s*:\s*(\d{3,4})/i);
+  const level = extract(/Niveau\s*:\s*(.+)/i) || extract(/🏷\s*Niveau\s*:\s*(.+)/i);
+  const base = extract(/Base\s*:\s*(.+)/i);
+  const scan = extract(/SCAN\s*:\s*(https?:\/\/\S+)/i);
+  const ip = extract(/IP\s*:\s*([0-9.]+)/i);
+
+  if(!sanitizedNumber) return null; // on ne garde que les blocs contenant bien un numéro
+
+  return {
+    idx,            // index dans cardsRaw (utile pour suppression côté serveur)
+    raw: b,
+    number: sanitizedNumber,
+    bin: binFromExtra,
+    bank: bank || '',
+    name: name || '',
+    zip: zip || '',
+    ville: ville || '',
+    dob: dob || '',
+    exp: exp || '',
+    ccv: ccv || '',
+    level: level ? level.toUpperCase() : '',
+    base: base || '',
+    scan: scan || '',
+    ip: ip || ''
+  };
+}
+
+function renderCards(list){
+  const grid = document.getElementById('cardsGrid');
+  grid.innerHTML = '';
+  if(list.length === 0){
+    grid.innerHTML = '<div style="grid-column:1/-1;color:var(--muted);padding:20px;border-radius:8px;background:transparent">Aucune carte disponible.</div>';
+    return;
+  }
+  list.forEach((c, i) => {
+    const cardEl = document.createElement('div');
+    cardEl.className = 'card';
+    cardEl.innerHTML = `
+      <div class="top">
+        <div>
+          <div class="title">${c.bin ? c.bin : c.number.slice(0,6)} • ${escapeHtml(c.bank || '—')}</div>
+          <div class="meta small">${escapeHtml(c.name || '—')} · ${escapeHtml(c.ville || '')} ${escapeHtml(c.zip || '')}</div>
+        </div>
+        <div style="text-align:right">
+          <div class="small" style="color:${levelColor(c.level)}">${escapeHtml(c.level || '')}</div>
+          <div class="small" style="color:var(--muted)">${escapeHtml(c.base || '')}</div>
+        </div>
+      </div>
+      <div class="body">
+        <div><span class="small">Card</span> <strong>${formatCard(c.number)}</strong></div>
+        <div class="small">Exp: ${escapeHtml(c.exp || '—')} · CVV: ${escapeHtml(c.ccv || '—')}</div>
+        <div style="margin-top:8px" class="small">IP: ${escapeHtml(c.ip || '—')}</div>
+        <div style="margin-top:8px">
+          <button class="btn" data-idx="${c.idx}" data-number="${c.number}">Demander</button>
+        </div>
+      </div>
+    `;
+    grid.appendChild(cardEl);
+  });
+
+  // attacher listeners
+  document.querySelectorAll('#cardsGrid .btn').forEach(b => {
+    b.addEventListener('click', (e) => {
+      const idx = parseInt(b.getAttribute('data-idx'));
+      const number = b.getAttribute('data-number');
+      openModal(idx, number);
+    });
+  });
+}
+
+// helpers
+function formatCard(num){
+  return num.replace(/(\d{4})(?=\d)/g,'$1 ');
+}
+function levelColor(level){
+  if(!level) return 'var(--muted)';
+  if(level.includes('GOLD')) return '#f59e0b';
+  if(level.includes('INFINITE')) return '#a78bfa';
+  if(level.includes('BUSINESS')) return '#38bdf8';
+  if(level.includes('CLASSIC')) return '#94a3b8';
+  return 'var(--muted)';
+}
+function escapeHtml(s){return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+// compteur total / par type
+function updateCounters(){
+  const total = cards.length;
+  const classic = cards.filter(c => /CLASSIC/i.test(c.level)).length;
+  const gold = cards.filter(c => /GOLD/i.test(c.level)).length;
+  const business = cards.filter(c => /BUSINESS/i.test(c.level)).length;
+  const infinite = cards.filter(c => /INFINITE/i.test(c.level)).length;
+  document.getElementById('countTotal').innerText = total;
+  document.getElementById('countClassic').innerText = classic;
+  document.getElementById('countGold').innerText = gold;
+  document.getElementById('countBusiness').innerText = business;
+  document.getElementById('countInfinite').innerText = infinite;
+}
+
+// modal
+const modal = document.getElementById('modal');
+const modalCardText = document.getElementById('modalCardText');
+const telegramInput = document.getElementById('telegramInput');
+const sendRequestBtn = document.getElementById('sendRequestBtn');
+const modalMsg = document.getElementById('modalMsg');
+document.getElementById('modalClose').addEventListener('click', closeModal);
+document.getElementById('refreshBtn').addEventListener('click', loadCards);
+document.getElementById('filterInput').addEventListener('input', () => {
+  const q = document.getElementById('filterInput').value.toLowerCase().trim();
+  const filtered = cards.filter(c => {
+    return (c.number || '').includes(q) ||
+           (c.bin || '').includes(q) ||
+           (c.bank || '').toLowerCase().includes(q) ||
+           (c.name || '').toLowerCase().includes(q) ||
+           (c.ville || '').toLowerCase().includes(q) ||
+           (c.level || '').toLowerCase().includes(q);
+  });
+  renderCards(filtered);
+});
+
+function openModal(idx, number){
+  activeCardIndex = idx;
+  const c = cards.find(x => x.idx === idx && x.number === number);
+  if(!c) return alert('Carte introuvable (rafraîchis).');
+  modalCardText.innerText = `${formatCard(c.number)} — ${c.bank || ''} — ${c.level || ''}`;
+  telegramInput.value = TELEGRAM_DISPLAY || '';
+  modalMsg.innerText = '';
+  telegramInput.focus();
+  modal.classList.add('show');
+}
+
+function closeModal(){
+  modal.classList.remove('show');
+  activeCardIndex = null;
+}
+
+// envoyer la demande au serveur
+sendRequestBtn.addEventListener('click', async () => {
+  if(activeCardIndex === null) return;
+  const tg = (telegramInput.value || '').trim();
+  if(!tg) { modalMsg.style.color = 'var(--danger)'; modalMsg.innerText = 'Entre ton pseudo Telegram (ex: @pseudo)'; return; }
+  // ajouter @ si nécessaire
+  const tgFormatted = tg.startsWith('@') ? tg : '@' + tg;
+
+  // trouver la carte complète
+  const card = cards.find(x => x.idx === activeCardIndex);
+  if(!card){ modalMsg.style.color = 'var(--danger)'; modalMsg.innerText = 'Carte introuvable, rafraîchis la page.'; return; }
+
+  sendRequestBtn.disabled = true;
+  sendRequestBtn.innerText = 'Envoi...';
+
+  try {
+    const resp = await fetch('demande.php', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({
+        idx: card.idx,
+        number: card.number,
+        telegram: tgFormatted
+      })
+    });
+    const data = await resp.json();
+    if(data.success){
+      // suppression visuelle : on retire la carte de cards et on rerender
+      cards = cards.filter(x => !(x.idx === card.idx && x.number === card.number));
+      renderCards(cards);
+      updateCounters();
+      modalMsg.style.color = 'lightgreen';
+      modalMsg.innerText = 'Demande envoyée — la carte est supprimée.';
+      setTimeout(closeModal, 900);
+    } else {
+      modalMsg.style.color = 'var(--danger)';
+      modalMsg.innerText = data.message || 'Erreur serveur';
+    }
+  } catch(err){
+    console.error(err);
+    modalMsg.style.color = 'var(--danger)';
+    modalMsg.innerText = 'Erreur réseau / serveur';
+  } finally {
+    sendRequestBtn.disabled = false;
+    sendRequestBtn.innerText = 'Envoyer la demande';
+  }
+});
+
+// init
+loadCards();
+</script>
+</body>
+</html>
