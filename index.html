@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cartes disponibles</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  margin: 0;
+}
+header {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+#counter {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+thead {
+  background: #fafafa;
+}
+thead th {
+  padding: 12px 10px;
+  font-size: 0.9em;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+tbody tr:hover {
+  background: #f9f9f9;
+}
+tbody td {
+  padding: 10px;
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+button.demander {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+button.demander:hover {
+  background-color: #218838;
+}
+</style>
+</head>
+<body>
+<header>Cartes disponibles</header>
+<div id="counter">
+  Total cartes : 0 |
+  Classic : 0 |
+  Gold : 0 |
+  Business : 0 |
+  Infinite : 0
+</div>
+<table>
+<thead>
+<tr>
+  <th>BIN</th>
+  <th>Banque</th>
+  <th>Niveau</th>
+  <th>Prix</th>
+  <th>Date récup.</th>
+  <th></th>
+</tr>
+</thead>
+<tbody id="cardsTable"></tbody>
+</table>
+
+<script>
+async function fetchCards() {
+  const res = await fetch('cards.txt');
+  const text = await res.text();
+
+  // Séparer les cartes à chaque "💳 + 1 NEW CARD"
+  const rawCards = text.split(/💳 \+ 1 NEW CARD/i).slice(1);
+
+  // Parse chaque carte dans un objet avec infos utiles
+  const cards = rawCards.map(parseCard).filter(c => c !== null);
+
+  return cards;
+}
+
+function parseCard(block) {
+  try {
+    // Extraire BIN (ex: #453250)
+    const binMatch = block.match(/Bin\s*:\s*#?(\d{6})/i);
+    const bin = binMatch ? binMatch[1] : '';
+
+    // Banque
+    const banqueMatch = block.match(/Nom de la banque\s*:\s*(.+)/i);
+    const banque = banqueMatch ? banqueMatch[1].trim() : '';
+
+    // Niveau
+    const niveauMatch = block.match(/Niveau\s*:\s*(.+)/i);
+    const niveau = niveauMatch ? niveauMatch[1].trim().toUpperCase() : '';
+
+    // Prix selon niveau
+    const prix = getPrice(niveau);
+
+    // Date récup : ligne avec format [YYYY-MM-DD HH:MM:SS]
+    const dateMatch = block.match(/\[(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})\]/);
+    const dateRecup = dateMatch ? dateMatch[1] : '-';
+
+    return {
+      raw: block.trim(),
+      bin,
+      banque,
+      niveau,
+      prix,
+      dateRecup
+    };
+  } catch (e) {
+    return null;
+  }
+}
+
+function getPrice(niveau) {
+  switch (niveau) {
+    case 'CLASSIC': return '50€';
+    case 'GOLD': return '70€';
+    case 'BUSINESS': return '100€';
+    case 'INFINITE': return '150€';
+    default: return '-';
+  }
+}
+
+function updateCounters(cards) {
+  const total = cards.length;
+  const classic = cards.filter(c => c.niveau === 'CLASSIC').length;
+  const gold = cards.filter(c => c.niveau === 'GOLD').length;
+  const business = cards.filter(c => c.niveau === 'BUSINESS').length;
+  const infinite = cards.filter(c => c.niveau === 'INFINITE').length;
+
+  document.getElementById('counter').textContent =
+    `Total cartes : ${total} | Classic : ${classic} | Gold : ${gold} | Business : ${business} | Infinite : ${infinite}`;
+}
+
+function createRow(card) {
+  const tr = document.createElement('tr');
+
+  tr.innerHTML = `
+    <td>${card.bin}</td>
+    <td>${card.banque}</td>
+    <td>${card.niveau}</td>
+    <td>${card.prix}</td>
+    <td>${card.dateRecup}</td>
+    <td><button class="demander">Demander</button></td>
+  `;
+
+  tr.querySelector('button.demander').addEventListener('click', () => {
+    demanderCarte(card);
+  });
+
+  return tr;
+}
+
+async function demanderCarte(card) {
+  let telegramUser = prompt("Entrez votre pseudo Telegram (ex: @pseudo) :");
+  if (!telegramUser || telegramUser.trim() === '') {
+    alert('Pseudo Telegram requis');
+    return;
+  }
+  telegramUser = telegramUser.trim();
+
+  // Appel POST vers demande.php avec la carte brute + pseudo Telegram
+  const response = await fetch('demande.php', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ 
+      telegramUser,
+      rawCard: card.raw
+    })
+  });
+  const result = await response.json();
+
+  if (result.success) {
+    alert('Demande envoyée avec succès ! La carte sera retirée de la liste.');
+    // Retirer la carte de l'affichage
+    cards = cards.filter(c => c.raw !== card.raw);
+    renderCards(cards);
+  } else {
+    alert('Erreur : ' + (result.message || 'Erreur inconnue'));
+  }
+}
+
+let cards = [];
+
+function renderCards(cardsToRender) {
+  const tableBody = document.getElementById('cardsTable');
+  tableBody.innerHTML = '';
+  cardsToRender.forEach(card => {
+    tableBody.appendChild(createRow(card));
+  });
+  updateCounters(cardsToRender);
+}
+
+(async () => {
+  cards = await fetchCards();
+  renderCards(cards);
+})();
+</script>
+</body>
+</html>
