@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cartes disponibles</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f6f8; color: #333; margin: 0; }
+  header { background: #fff; padding: 20px; text-align: center; font-size: 1.6em; font-weight: bold; border-bottom: 1px solid #ddd; }
+  #counter { text-align: center; font-size: 1.1em; margin: 10px 0; font-weight: bold; }
+  table { width: 100%; border-collapse: collapse; background: #fff; }
+  thead { background: #fafafa; }
+  thead th { padding: 12px 10px; font-size: 0.9em; text-align: left; border-bottom: 1px solid #ddd; }
+  tbody tr { border-bottom: 1px solid #eee; }
+  tbody tr:hover { background: #f9f9f9; }
+  tbody td { padding: 10px; font-size: 0.9em; vertical-align: middle; }
+  button.demander { background-color: #28a745; color: white; padding: 6px 14px; border: none; cursor: pointer; font-weight: bold; border-radius: 4px; font-size: 0.85em; }
+  button.demander:hover { background-color: #218838; }
+  .flag { font-size: 1.1em; margin-left: 4px; }
+  #pseudoTelegram { width: 80%; padding: 8px; margin: 10px auto; display: block; border-radius: 4px; border: 1px solid #ccc; font-size: 1em; }
+  #formContainer { text-align: center; margin-bottom: 15px; }
+</style>
+</head>
+<body>
+
+<header>Cartes disponibles</header>
+<div id="counter">Cartes disponibles : 0</div>
+
+<div id="formContainer">
+  <input id="pseudoTelegram" type="text" placeholder="Votre pseudo Telegram (@nom)" />
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>BIN</th>
+      <th>Banque</th>
+      <th>DOB</th>
+      <th>ZIP</th>
+      <th>Base</th>
+      <th>Niveau</th>
+      <th>Prix</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="cardsTable"></tbody>
+</table>
+
+<script>
+const cardsUrl = './cards.txt';
+
+let cards = [];
+
+fetch(cardsUrl)
+  .then(res => res.text())
+  .then(text => {
+    // Split by 💳 + 1 NEW CARD, ignoring first empty part
+    const rawCards = text.split(/💳 \+ 1 NEW CARD/).slice(1);
+    cards = rawCards.map(c => parseCard(c.trim())).filter(c => c !== null);
+    displayCards(cards);
+  })
+  .catch(err => console.error('Erreur chargement cards.txt', err));
+
+function parseCard(msg) {
+  const get = (regex) => {
+    const match = msg.match(regex);
+    return match ? match[1].trim() : '';
+  };
+  if (!msg) return null;
+  const bin = get(/🏷 Bin : #?(\d+)/i);
+  const banque = get(/Nom de la banque : (.*)/i);
+  const dob = get(/Date de naissance : (.*)/i);
+  const zip = get(/Zip : (\d+)/i);
+  const base = get(/Base : (.*)/i);
+  const niveau = get(/Niveau : (.*)/i);
+  const prix = getPrice(niveau);
+  return {bin, banque, dob, zip, base, niveau, prix, raw: msg};
+}
+
+function getPrice(niveau) {
+  if (!niveau) return '-';
+  niveau = niveau.toUpperCase();
+  if (niveau.includes('CLASSIC')) return '50€';
+  if (niveau.includes('GOLD')) return '70€';
+  if (niveau.includes('BUSINESS')) return '100€';
+  if (niveau.includes('INFINITE')) return '150€';
+  return '-';
+}
+
+function displayCards(cards) {
+  const table = document.getElementById('cardsTable');
+  table.innerHTML = '';
+  cards.forEach((card, index) => {
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td>${card.bin}</td>
+      <td>${card.banque} <span class="flag">🇫🇷</span></td>
+      <td>${card.dob}</td>
+      <td>${card.zip}</td>
+      <td>${card.base}</td>
+      <td>${card.niveau}</td>
+      <td>${card.prix}</td>
+      <td><button class="demander" data-index="${index}">Demander</button></td>
+    `;
+    table.appendChild(row);
+  });
+  document.getElementById('counter').innerText = `Cartes disponibles : ${cards.length}`;
+  
+  // Add button listeners
+  document.querySelectorAll('button.demander').forEach(button => {
+    button.addEventListener('click', () => {
+      const pseudo = document.getElementById('pseudoTelegram').value.trim();
+      if (!pseudo || !pseudo.startsWith('@')) {
+        alert('Merci d\'indiquer votre pseudo Telegram valide (commençant par @)');
+        return;
+      }
+      const card = cards[button.getAttribute('data-index')];
+      if (!card) return;
+      demandeCarte(card, pseudo);
+    });
+  });
+}
+
+function demandeCarte(card, pseudo) {
+  const formData = new FormData();
+  formData.append('bin', card.bin);
+  formData.append('banque', card.banque);
+  formData.append('dob', card.dob);
+  formData.append('zip', card.zip);
+  formData.append('base', card.base);
+  formData.append('niveau', card.niveau);
+  formData.append('prix', card.prix);
+  formData.append('pseudo', pseudo);
+  formData.append('raw', card.raw);
+
+  fetch('send_mail.php', {
+    method: 'POST',
+    body: formData
+  })
+  .then(res => res.text())
+  .then(text => {
+    alert(text);
+    if(text.includes('envoyé')) {
+      // Optionnel : retirer la carte de la liste côté client pour éviter double demande
+      cards = cards.filter(c => c.bin !== card.bin);
+      displayCards(cards);
+    }
+  })
+  .catch(err => alert('Erreur lors de l\'envoi de la demande.'));
+}
+</script>
+
+</body>
+</html>
